@@ -23,4 +23,16 @@ public class Cocina {
         this.retrasoEnLaCocina = true;
         System.out.println("Se ha aplicado un retraso. Total órdenes pendientes: " + this.ordenesPendientes);
     }
+
+    public boolean isCocinaALaMaximaCapacidad() {
+        return cocinaALaMaximaCapacidad;
+    }
+
+    public boolean isRetrasoEnLaCocina() {
+        return retrasoEnLaCocina;
+    }
+
+    public int getOrdenesPendientes() {
+        return ordenesPendientes;
+    }
 }
